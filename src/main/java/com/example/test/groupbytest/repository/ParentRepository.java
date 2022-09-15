@@ -1,9 +1,9 @@
-package com.example.test.repository;
+package com.example.test.groupbytest.repository;
 
-import com.example.test.Child;
-import com.example.test.config.PageRequest;
-import com.example.test.dto.ChildDto;
-import com.example.test.dto.ParentAndChildDto;
+import com.example.test.groupbytest.Child;
+import com.example.test.groupbytest.config.PageRequest;
+import com.example.test.groupbytest.dto.ChildDto;
+import com.example.test.groupbytest.dto.ParentAndChildDto;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
@@ -15,9 +15,9 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Map;
 
-import static com.example.test.QChild.child;
-import static com.example.test.QParent.parent;
 import static com.querydsl.core.group.GroupBy.*;
+import static com.example.test.groupbytest.QParent.parent;
+import static com.example.test.groupbytest.QChild.child;
 
 @RequiredArgsConstructor
 @Repository

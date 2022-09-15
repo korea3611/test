@@ -1,4 +1,4 @@
-package com.example.test.config;
+package com.example.test.groupbytest.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.springframework.context.annotation.Bean;

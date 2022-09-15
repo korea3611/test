@@ -1,10 +1,9 @@
-package com.example.test.controller;
+package com.example.test.groupbytest.controller;
 
-import com.example.test.Child;
-import com.example.test.dto.ParentAndChildDto;
-import com.example.test.service.ParentService;
+import com.example.test.groupbytest.Child;
+import com.example.test.groupbytest.dto.ParentAndChildDto;
+import com.example.test.groupbytest.service.ParentService;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

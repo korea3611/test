@@ -1,4 +1,4 @@
-package com.example.test.dto;
+package com.example.test.groupbytest.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package com.example.test.config;
+package com.example.test.groupbytest.config;
 
 import org.springframework.data.domain.Sort;
 

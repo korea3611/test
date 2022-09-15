@@ -1,8 +1,8 @@
-package com.example.test.service;
+package com.example.test.groupbytest.service;
 
-import com.example.test.Child;
-import com.example.test.dto.ParentAndChildDto;
-import com.example.test.repository.ParentRepository;
+import com.example.test.groupbytest.Child;
+import com.example.test.groupbytest.dto.ParentAndChildDto;
+import com.example.test.groupbytest.repository.ParentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.stereotype.Service;
