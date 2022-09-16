@@ -27,14 +27,14 @@ spring:
     hikari:
       jdbc-url: jdbc:h2:tcp://localhost/~/test
       connectionTimeout: 30000
-      maximumPoolSize: 50
+      maximumPoolSize: 20
       maxLifetime: 1800000
       poolName: HikariCP
       readOnly: false
       connectionTestQuery: SELECT 1
     driver-class-name: org.h2.Driver
     username: sa
-    password: 1234
+    password:
 
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
@@ -44,7 +44,7 @@ spring:
         show_sql: true
         dialect: org.hibernate.dialect.H2Dialect
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
 
 logging:
   level:
