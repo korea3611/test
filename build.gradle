@@ -23,7 +23,9 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
-
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.redisson:redisson-spring-boot-starter:3.16.3'
+    implementation 'org.springframework.session:spring-session-data-redis'
     implementation 'com.querydsl:querydsl-jpa:5.0.0'
     implementation "com.querydsl:querydsl-apt:5.0.0"
 }
