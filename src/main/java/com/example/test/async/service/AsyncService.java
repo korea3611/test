@@ -14,12 +14,10 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class AsyncService {
 
-//    private static final Logger logger = LoggerFactory.getLogger(AsyncService.class);
     private final AsyncRepository asyncRepository;
     //비동기로 동작하는 메소드
     @Async
     public void onAsync(int i) {
-//        logger.info("onAsync i=" + i);
         Optional<AsyncTestEntity> byId = asyncRepository.findById((long) i);
         AsyncTestEntity asyncTestEntity = byId.get();
         System.out.println(asyncTestEntity.getName());
